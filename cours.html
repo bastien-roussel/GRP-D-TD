@@ -5,18 +5,19 @@
     <title> Un Super Site pour le groupe D</title>
     <meta charset="utf-8" />
     <meta name="description" content="Une description pour notre ami google" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
 
     <!-- MON ENTETE HTML-->
     <header>
-        <h1> MON SUPER SITE </h1>
+        <h1 id="titre"> MON SUPER SITE </h1>
         <nav>
             <ul>
-                <li> ACCUEIL </li>
-                <li> CONTACT </li>
-                <li> PRODUITS </li>
+                <li class="menu"> ACCUEIL </li>
+                <li class="menu"> CONTACT </li>
+                <li class="menu"> PRODUITS </li>
             </ul>
         </nav>
     </header>
@@ -38,7 +39,7 @@
     <section>
         <h2> UN BO FORMULAIRE </h2>
 
-        <form action="mailto:bastien.roussel.pro@gmail.com" method="get">
+        <form class="mon-bo-form" action="mailto:bastien.roussel.pro@gmail.com" method="get">
 
             <label> Entre ton prénom mon p'tit gars !</label>
             <input type="text" required />
@@ -69,10 +70,11 @@
     <!-- UNE SECTION AVEC UN ARTICLE ET DES IMAGES -->
     <section>
         <h2> ICI JE VAIS ECRIRE UN ARTICLE</h2>
-        <article>
+        <article class="article">
             <h3> Le titre de l'article </h3>
-            <p> Du blabla </p>
-            <img alt="Un très bon cocktail" src="assets/imgs/cocktail_BobMarley.jpg" width="50" />
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsum voluptate deleniti minus nesciunt soluta dignissimos, vitae totam voluptas reprehenderit necessitatibus cupiditate harum error perspiciatis, fugiat impedit illum labore
+                asperiores, rem neque commodi. Sunt, fugiat optio aliquid sed sapiente ullam veniam? Perferendis debitis numquam reprehenderit, facilis fugit rem. Quis, nostrum. </p>
+            <img class="mon-img" alt="Un très bon cocktail" src="assets/imgs/cocktail_BobMarley.jpg" />
         </article>
     </section>
 
