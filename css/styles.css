@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'maSuperPolice';
+    src: url("../assets/polices/MochiyPopPOne-Regular.ttf");
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -6,6 +11,7 @@ body {
 #titre {
     color: #C99999;
     font-size: 3em;
+    font-family: 'maSuperPolice';
 }
 
 .menu {
