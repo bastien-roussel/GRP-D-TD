@@ -1,0 +1,30 @@
+.parent {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.enfants {
+    width: 10em;
+    height: 10em;
+}
+
+.enfant1 {
+    background-color: blue;
+}
+
+.enfant2 {
+    background-color: red;
+}
+
+.enfant3 {
+    background-color: green;
+}
+
+.enfant4 {
+    background-color: yellow;
+}
